@@ -2343,7 +2343,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "007503ef-0879-4c61-b828-d940bf03fc53")
-		(property "Reference" "D5"
+		(property "Reference" "D18"
 			(at 221.234 96.7486 90)
 			(effects
 				(font
@@ -2451,7 +2451,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/b7784da9-1295-4ebc-bb4b-a445e94b65c1"
-					(reference "D5")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -2466,7 +2466,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c2eb48a-7beb-4299-9b7b-6324a4d6da43")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR024"
 			(at 218.44 77.47 0)
 			(effects
 				(font
@@ -2516,7 +2516,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/b7784da9-1295-4ebc-bb4b-a445e94b65c1"
-					(reference "#PWR04")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -2599,7 +2599,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "230ed20e-d1b7-4e9b-ad1a-e384ee1f3f63")
-		(property "Reference" "TP1"
+		(property "Reference" "TP3"
 			(at 203.2 52.07 0)
 			(effects
 				(font
@@ -2695,7 +2695,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/b7784da9-1295-4ebc-bb4b-a445e94b65c1"
-					(reference "TP1")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -2710,7 +2710,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2fb285f0-d221-4285-86c8-f6fb91439f72")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR022"
 			(at 190.5 77.47 0)
 			(effects
 				(font
@@ -2760,7 +2760,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/b7784da9-1295-4ebc-bb4b-a445e94b65c1"
-					(reference "#PWR0106")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -2776,7 +2776,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2fb4a4a1-f7dc-4e31-8cea-6a27e032c15e")
-		(property "Reference" "D1"
+		(property "Reference" "D15"
 			(at 119.38 47.244 0)
 			(effects
 				(font
@@ -2864,7 +2864,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/b7784da9-1295-4ebc-bb4b-a445e94b65c1"
-					(reference "D1")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -2879,7 +2879,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35340377-15ad-4695-ae59-82f3e477e73c")
-		(property "Reference" "R9"
+		(property "Reference" "R26"
 			(at 220.472 90.678 0)
 			(effects
 				(font
@@ -2931,7 +2931,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/b7784da9-1295-4ebc-bb4b-a445e94b65c1"
-					(reference "R9")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -2946,7 +2946,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "3c1586e1-aa94-4674-bf46-cb2776ecd4dc")
-		(property "Reference" "TP2"
+		(property "Reference" "TP4"
 			(at 203.2 82.55 0)
 			(effects
 				(font
@@ -3042,7 +3042,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/b7784da9-1295-4ebc-bb4b-a445e94b65c1"
-					(reference "TP2")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -3058,7 +3058,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ff3d963-f999-4da1-82a6-aa3ec5c09ba0")
-		(property "Reference" "C9"
+		(property "Reference" "C5"
 			(at 135.636 57.404 0)
 			(effects
 				(font
@@ -3122,7 +3122,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/b7784da9-1295-4ebc-bb4b-a445e94b65c1"
-					(reference "C9")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -3137,7 +3137,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4686edef-e707-4239-9b34-c85a44371795")
-		(property "Reference" "R1"
+		(property "Reference" "R24"
 			(at 88.646 124.46 0)
 			(effects
 				(font
@@ -3190,7 +3190,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/b7784da9-1295-4ebc-bb4b-a445e94b65c1"
-					(reference "R1")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -3205,7 +3205,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4aebe0c4-9aa0-43f2-945d-91666dae4b87")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR021"
 			(at 133.35 68.58 0)
 			(effects
 				(font
@@ -3255,7 +3255,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/b7784da9-1295-4ebc-bb4b-a445e94b65c1"
-					(reference "#PWR016")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -3271,7 +3271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c1b1e3b-5746-40b5-9f79-38a802b0738e")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR019"
 			(at 73.66 133.35 0)
 			(effects
 				(font
@@ -3321,7 +3321,7 @@
 		(instances
 			(project ""
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/b7784da9-1295-4ebc-bb4b-a445e94b65c1"
-					(reference "#PWR014")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -3336,7 +3336,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "75b038e8-072a-4331-9680-ebfa867a25e6")
-		(property "Reference" "R6"
+		(property "Reference" "R25"
 			(at 220.472 60.198 0)
 			(effects
 				(font
@@ -3388,7 +3388,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/b7784da9-1295-4ebc-bb4b-a445e94b65c1"
-					(reference "R6")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -3404,7 +3404,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "77879b63-ea40-4593-bd93-9d96fe627024")
-		(property "Reference" "D2"
+		(property "Reference" "D16"
 			(at 119.38 61.976 0)
 			(effects
 				(font
@@ -3492,7 +3492,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/b7784da9-1295-4ebc-bb4b-a445e94b65c1"
-					(reference "D2")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -3577,7 +3577,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7cb9fb74-c6bd-4661-a85a-ec06b54fb532")
-		(property "Reference" "C4"
+		(property "Reference" "C7"
 			(at 173.228 92.71 0)
 			(effects
 				(font
@@ -3632,7 +3632,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/b7784da9-1295-4ebc-bb4b-a445e94b65c1"
-					(reference "C4")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -3648,7 +3648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80c09d72-92c6-452c-86e4-ce0ecf55749c")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR018"
 			(at 50.8 67.31 0)
 			(effects
 				(font
@@ -3698,7 +3698,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/b7784da9-1295-4ebc-bb4b-a445e94b65c1"
-					(reference "#PWR015")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -3781,7 +3781,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "84dc2bd4-7b79-4721-8391-bc69c8f9d182")
-		(property "Reference" "SW3"
+		(property "Reference" "SW9"
 			(at 95.25 62.738 0)
 			(effects
 				(font
@@ -3833,7 +3833,7 @@
 		(instances
 			(project ""
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/b7784da9-1295-4ebc-bb4b-a445e94b65c1"
-					(reference "SW3")
+					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -3849,7 +3849,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "890c5f77-03e1-4139-b3c6-2a40392c6095")
-		(property "Reference" "U2"
+		(property "Reference" "U4"
 			(at 190.5 52.07 0)
 			(effects
 				(font
@@ -3950,7 +3950,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/b7784da9-1295-4ebc-bb4b-a445e94b65c1"
-					(reference "U2")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -3967,7 +3967,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ca51b96-faa1-4905-8609-5e13cde28d2b")
-		(property "Reference" "D3"
+		(property "Reference" "D17"
 			(at 221.234 66.2686 90)
 			(effects
 				(font
@@ -4075,7 +4075,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/b7784da9-1295-4ebc-bb4b-a445e94b65c1"
-					(reference "D3")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -4091,7 +4091,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f6284f2-71e9-4bf3-bacd-c81970515198")
-		(property "Reference" "D7"
+		(property "Reference" "D14"
 			(at 83.82 115.5446 90)
 			(effects
 				(font
@@ -4199,7 +4199,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/b7784da9-1295-4ebc-bb4b-a445e94b65c1"
-					(reference "D7")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -4215,7 +4215,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c7d9f1f-b09f-4494-b700-4c53b530b292")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 190.5 82.55 0)
 			(effects
 				(font
@@ -4316,7 +4316,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/b7784da9-1295-4ebc-bb4b-a445e94b65c1"
-					(reference "U4")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -4331,7 +4331,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a5cc91c4-2e21-47ce-9542-5cfccb84995d")
-		(property "Reference" "C3"
+		(property "Reference" "C6"
 			(at 173.228 62.23 0)
 			(effects
 				(font
@@ -4386,7 +4386,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/b7784da9-1295-4ebc-bb4b-a445e94b65c1"
-					(reference "C3")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -4401,7 +4401,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af4c1e3f-3c59-41f5-b343-0540d5a241a2")
-		(property "Reference" "R10"
+		(property "Reference" "R22"
 			(at 54.864 98.552 0)
 			(effects
 				(font
@@ -4455,7 +4455,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/b7784da9-1295-4ebc-bb4b-a445e94b65c1"
-					(reference "R10")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -4470,7 +4470,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "c113b1a6-b793-4009-87c7-c24bd78562fb")
-		(property "Reference" "TP4"
+		(property "Reference" "TP2"
 			(at 123.19 91.44 0)
 			(effects
 				(font
@@ -4566,7 +4566,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/b7784da9-1295-4ebc-bb4b-a445e94b65c1"
-					(reference "TP4")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -4582,7 +4582,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c135ffb1-e908-475b-9dc5-2ec9a1fd7c89")
-		(property "Reference" "C6"
+		(property "Reference" "C9"
 			(at 205.486 92.71 0)
 			(effects
 				(font
@@ -4637,7 +4637,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/b7784da9-1295-4ebc-bb4b-a445e94b65c1"
-					(reference "C6")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -4652,7 +4652,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c3b6ef98-fac2-4102-86c5-e878057aa8aa")
-		(property "Reference" "R11"
+		(property "Reference" "R23"
 			(at 54.864 106.172 0)
 			(effects
 				(font
@@ -4706,7 +4706,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/b7784da9-1295-4ebc-bb4b-a445e94b65c1"
-					(reference "R11")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -4722,7 +4722,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ccaa1dff-7892-4559-8095-b16cf76e2848")
-		(property "Reference" "C5"
+		(property "Reference" "C8"
 			(at 205.232 62.23 0)
 			(effects
 				(font
@@ -4777,7 +4777,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/b7784da9-1295-4ebc-bb4b-a445e94b65c1"
-					(reference "C5")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -4792,7 +4792,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d56cf56a-7848-43ac-ae89-45c8150015fc")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR025"
 			(at 218.44 107.95 0)
 			(effects
 				(font
@@ -4842,7 +4842,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/b7784da9-1295-4ebc-bb4b-a445e94b65c1"
-					(reference "#PWR05")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -4857,7 +4857,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7b6c876-daf8-492c-af3e-217b6746deb9")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR020"
 			(at 110.49 101.6 0)
 			(effects
 				(font
@@ -4907,7 +4907,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/b7784da9-1295-4ebc-bb4b-a445e94b65c1"
-					(reference "#PWR03")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -4922,7 +4922,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "f03d7d36-113c-4ccc-8e5d-532dd5eef56e")
-		(property "Reference" "TP3"
+		(property "Reference" "TP1"
 			(at 113.03 91.44 0)
 			(effects
 				(font
@@ -5018,7 +5018,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/b7784da9-1295-4ebc-bb4b-a445e94b65c1"
-					(reference "TP3")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -5033,7 +5033,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f7111308-f73b-4cbe-9544-8fd75d8120e5")
-		(property "Reference" "U6"
+		(property "Reference" "U3"
 			(at 80.518 100.584 0)
 			(effects
 				(font
@@ -5090,7 +5090,7 @@
 		(instances
 			(project ""
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/b7784da9-1295-4ebc-bb4b-a445e94b65c1"
-					(reference "U6")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -5105,7 +5105,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f9b76659-d661-4ed0-aef3-e38f2d57af28")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR023"
 			(at 190.5 107.95 0)
 			(effects
 				(font
@@ -5155,7 +5155,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/b7784da9-1295-4ebc-bb4b-a445e94b65c1"
-					(reference "#PWR0105")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)

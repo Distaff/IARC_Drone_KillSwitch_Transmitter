@@ -2356,15 +2356,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 213.36 66.04 90)
+		(at 177.8 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0d22f97e-f68e-4b9a-9af6-0f261963fe49")
-		(property "Reference" "R24"
-			(at 218.44 64.77 90)
+		(uuid "034c1102-ea81-43ad-991c-8cb8ea2a17d0")
+		(property "Reference" "R13"
+			(at 182.88 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2373,7 +2373,7 @@
 			)
 		)
 		(property "Value" "120R"
-			(at 218.44 62.23 90)
+			(at 182.88 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2381,8 +2381,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
-			(at 213.36 66.04 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 177.8 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2391,7 +2391,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 66.04 0)
+			(at 177.8 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2400,7 +2400,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 213.36 66.04 0)
+			(at 177.8 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2408,15 +2408,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a44170aa-b07d-4440-9f99-dd45da759741")
+			(uuid "d59ac70f-1bd2-4032-9792-ba01f0163bb5")
 		)
 		(pin "2"
-			(uuid "b197295b-ce40-42c2-8562-f74ce2d2dbc7")
+			(uuid "5ec43446-75e0-4e7f-9c6c-9d19d5362148")
 		)
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/dd4eb25e-e036-4865-9a65-d34df93aca5c"
-					(reference "R24")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -2431,7 +2431,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1252823e-9487-465e-b6a0-e8d4c6e108f7")
-		(property "Reference" "SW6"
+		(property "Reference" "SW5"
 			(at 133.35 64.77 0)
 			(effects
 				(font
@@ -2484,7 +2484,75 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/dd4eb25e-e036-4865-9a65-d34df93aca5c"
-					(reference "SW6")
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 213.36 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "175656d2-ce5e-48aa-be97-8aa6f13c8923")
+		(property "Reference" "R15"
+			(at 218.44 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "120R"
+			(at 218.44 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 213.36 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "402adb1e-0f0d-4763-b116-02a6059ac290")
+		)
+		(pin "2"
+			(uuid "33c85f0d-c8aa-4076-a3ff-f5d6832a39cc")
+		)
+		(instances
+			(project "KillSwitch"
+				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/dd4eb25e-e036-4865-9a65-d34df93aca5c"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -2500,7 +2568,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "25140ed3-5d5e-4ee8-9c26-8c877fe03558")
-		(property "Reference" "D17"
+		(property "Reference" "D4"
 			(at 167.64 80.01 0)
 			(effects
 				(font
@@ -2553,7 +2621,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/dd4eb25e-e036-4865-9a65-d34df93aca5c"
-					(reference "D17")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -2568,7 +2636,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c779a65-c752-43d7-b0c8-ccf389baf765")
-		(property "Reference" "D25"
+		(property "Reference" "D12"
 			(at 237.49 81.28 0)
 			(effects
 				(font
@@ -2621,7 +2689,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/dd4eb25e-e036-4865-9a65-d34df93aca5c"
-					(reference "D25")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -2636,7 +2704,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ccfdf08-f1f8-4f93-b8da-3205c23577c1")
-		(property "Reference" "D21"
+		(property "Reference" "D8"
 			(at 203.2 80.01 0)
 			(effects
 				(font
@@ -2689,7 +2757,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/dd4eb25e-e036-4865-9a65-d34df93aca5c"
-					(reference "D21")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -2704,7 +2772,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2e9f3559-263b-4d25-b192-0b7c4caa1f98")
-		(property "Reference" "SW9"
+		(property "Reference" "SW8"
 			(at 133.35 87.63 0)
 			(effects
 				(font
@@ -2757,7 +2825,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/dd4eb25e-e036-4865-9a65-d34df93aca5c"
-					(reference "SW9")
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -2772,7 +2840,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3714cca0-3fa8-44ef-9c12-0707353028c6")
-		(property "Reference" "D19"
+		(property "Reference" "D6"
 			(at 203.2 64.77 0)
 			(effects
 				(font
@@ -2825,75 +2893,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/dd4eb25e-e036-4865-9a65-d34df93aca5c"
-					(reference "D19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 213.36 88.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3a15ac23-03b4-49bc-ab1a-cd2e9dcddca7")
-		(property "Reference" "R27"
-			(at 218.44 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "120R"
-			(at 218.44 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
-			(at 213.36 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 213.36 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 213.36 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5e3697c5-fea8-4584-897c-5c0350c8dc14")
-		)
-		(pin "2"
-			(uuid "5a7b78d9-d290-4076-a946-e680f43cdf5a")
-		)
-		(instances
-			(project "KillSwitch"
-				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/dd4eb25e-e036-4865-9a65-d34df93aca5c"
-					(reference "R27")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -2908,7 +2908,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "406de40a-0adf-4390-ba70-6ca69232df11")
-		(property "Reference" "D26"
+		(property "Reference" "D13"
 			(at 237.49 88.9 0)
 			(effects
 				(font
@@ -2961,7 +2961,75 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/dd4eb25e-e036-4865-9a65-d34df93aca5c"
-					(reference "D26")
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 213.36 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "47153005-3b64-4aa9-a05a-1afca3f2b160")
+		(property "Reference" "R14"
+			(at 218.44 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "120R"
+			(at 218.44 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 213.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d3da0ab8-e0e9-47b2-b6cb-4b8a4a7b58ee")
+		)
+		(pin "2"
+			(uuid "89fcf5ad-cce4-4abb-9d6e-e7d55009f910")
+		)
+		(instances
+			(project "KillSwitch"
+				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/dd4eb25e-e036-4865-9a65-d34df93aca5c"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -2976,7 +3044,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "51a19c92-c047-4105-9a81-08c148f59830")
-		(property "Reference" "D20"
+		(property "Reference" "D7"
 			(at 203.2 72.39 0)
 			(effects
 				(font
@@ -3029,7 +3097,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/dd4eb25e-e036-4865-9a65-d34df93aca5c"
-					(reference "D20")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -3045,7 +3113,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52bef346-dcfb-4e52-8a45-dd5ffb63ad7a")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR016"
 			(at 219.71 106.68 0)
 			(effects
 				(font
@@ -3094,75 +3162,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/dd4eb25e-e036-4865-9a65-d34df93aca5c"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 247.65 67.31 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "54fb4bca-7088-4da8-b2ab-6b3b6a5b6e41")
-		(property "Reference" "R28"
-			(at 252.73 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "120R"
-			(at 252.73 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
-			(at 247.65 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 247.65 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 247.65 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "94ea2e60-3224-4ee4-9a50-a8fc48d2dbf0")
-		)
-		(pin "2"
-			(uuid "1da6a21e-3071-4029-974b-6fca81d0bfc9")
-		)
-		(instances
-			(project "KillSwitch"
-				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/dd4eb25e-e036-4865-9a65-d34df93aca5c"
-					(reference "R28")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -3176,8 +3176,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "60424a81-57cc-466c-9fb8-75bc4f188868")
-		(property "Reference" "R22"
+		(uuid "5bdf5f9b-eaf8-4491-a6b3-cae36a6c5623")
+		(property "Reference" "R12"
 			(at 182.88 80.01 90)
 			(effects
 				(font
@@ -3195,7 +3195,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 177.8 81.28 0)
 			(effects
 				(font
@@ -3222,15 +3222,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "6eb31def-a2d0-47c1-8f71-d483ec5f6896")
+			(uuid "2a7923d2-edaa-4238-86b5-eb6d31e05c8c")
 		)
 		(pin "2"
-			(uuid "ff3cb382-b888-4f5b-9971-2b5e2a315e22")
+			(uuid "5aab92f7-b257-4c50-9bcd-717d281dcd1e")
 		)
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/dd4eb25e-e036-4865-9a65-d34df93aca5c"
-					(reference "R22")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -3238,15 +3238,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 177.8 66.04 90)
+		(at 213.36 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6666384f-9a17-4292-8cda-a6205f2a8a42")
-		(property "Reference" "R20"
-			(at 182.88 64.77 90)
+		(uuid "6652c323-2f92-43cd-b020-551bc74a168c")
+		(property "Reference" "R17"
+			(at 218.44 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3255,7 +3255,7 @@
 			)
 		)
 		(property "Value" "120R"
-			(at 182.88 62.23 90)
+			(at 218.44 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3263,8 +3263,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
-			(at 177.8 66.04 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 213.36 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3273,7 +3273,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 66.04 0)
+			(at 213.36 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3282,7 +3282,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 177.8 66.04 0)
+			(at 213.36 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3290,15 +3290,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "ee50b58a-b7ea-4e74-9660-14705de609fa")
+			(uuid "58b58dc8-bad0-40db-bb81-1978200dd5ee")
 		)
 		(pin "2"
-			(uuid "3cabf70f-b006-4816-ae4e-7cc870dbf0a5")
+			(uuid "54e274f8-9066-4783-b6c9-5287a761b2c4")
 		)
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/dd4eb25e-e036-4865-9a65-d34df93aca5c"
-					(reference "R20")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -3306,83 +3306,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 177.8 88.9 90)
+		(at 247.65 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6af63c05-c323-43c5-a724-6e7cce82d304")
-		(property "Reference" "R23"
-			(at 182.88 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "120R"
-			(at 182.88 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
-			(at 177.8 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 177.8 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1a84e3ac-b2da-4b08-ba89-baa68016f19f")
-		)
-		(pin "2"
-			(uuid "4784d4e4-93a9-4830-92ca-540d7f3726fa")
-		)
-		(instances
-			(project "KillSwitch"
-				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/dd4eb25e-e036-4865-9a65-d34df93aca5c"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 177.8 73.66 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "726c033c-b245-48d2-b3d8-c6bcee2f6f3a")
+		(uuid "66d7cde3-0d8c-4cf3-9afd-9499080aaca4")
 		(property "Reference" "R21"
-			(at 182.88 72.39 90)
+			(at 252.73 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3391,7 +3323,7 @@
 			)
 		)
 		(property "Value" "120R"
-			(at 182.88 69.85 90)
+			(at 252.73 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3399,8 +3331,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
-			(at 177.8 73.66 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 247.65 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3409,7 +3341,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 73.66 0)
+			(at 247.65 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3418,7 +3350,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 177.8 73.66 0)
+			(at 247.65 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3426,10 +3358,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "007f0bc2-7b85-440f-902b-f0997b2ea8bd")
+			(uuid "e9b7e37c-f392-4a36-8ea0-48e035f71e35")
 		)
 		(pin "2"
-			(uuid "59f205a4-428c-4a5a-b081-f249bf6f14c2")
+			(uuid "a9dcdbb4-0775-4fc6-8ad6-6e30c8f4310a")
 		)
 		(instances
 			(project "KillSwitch"
@@ -3442,15 +3374,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 213.36 81.28 90)
+		(at 247.65 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "72d04457-c748-44a8-84e4-4096b8cae502")
-		(property "Reference" "R26"
-			(at 218.44 80.01 90)
+		(uuid "7f3aa996-d05d-4fb1-bb36-ab4f67776dfd")
+		(property "Reference" "R19"
+			(at 252.73 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3459,7 +3391,7 @@
 			)
 		)
 		(property "Value" "120R"
-			(at 218.44 77.47 90)
+			(at 252.73 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3467,8 +3399,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
-			(at 213.36 81.28 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 247.65 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3477,7 +3409,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 81.28 0)
+			(at 247.65 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3486,7 +3418,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 213.36 81.28 0)
+			(at 247.65 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3494,15 +3426,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "6d68b04d-5008-4898-915e-cf1f09e33d16")
+			(uuid "67d74cb9-4184-4544-8ba1-84b4cc138bf1")
 		)
 		(pin "2"
-			(uuid "fba160c0-e618-4b2c-8d31-b915d4466505")
+			(uuid "cc75f168-11ca-4fd3-9c67-5ed5b56af616")
 		)
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/dd4eb25e-e036-4865-9a65-d34df93aca5c"
-					(reference "R26")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -3518,7 +3450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "845c766b-b0a9-4093-999a-de17bfd61a9f")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 70.7233 54.61 0)
 			(effects
 				(font
@@ -3652,7 +3584,7 @@
 		(instances
 			(project ""
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/dd4eb25e-e036-4865-9a65-d34df93aca5c"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -3660,15 +3592,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 213.36 73.66 90)
+		(at 177.8 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8b29be70-f3ea-404e-87bb-cae70fcda564")
-		(property "Reference" "R25"
-			(at 218.44 72.39 90)
+		(uuid "896e5be3-02db-458c-89e1-9168084792cc")
+		(property "Reference" "R11"
+			(at 182.88 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3677,7 +3609,7 @@
 			)
 		)
 		(property "Value" "120R"
-			(at 218.44 69.85 90)
+			(at 182.88 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3685,8 +3617,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
-			(at 213.36 73.66 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 177.8 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3695,7 +3627,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 73.66 0)
+			(at 177.8 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3704,7 +3636,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 213.36 73.66 0)
+			(at 177.8 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3712,83 +3644,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "51069aff-7910-4384-ac61-5dfee2ea4ac3")
+			(uuid "7eaf4f52-ee35-4587-9eed-70803b9b355c")
 		)
 		(pin "2"
-			(uuid "63ccffb4-4b74-44ef-8413-b588efe4a932")
+			(uuid "237ef8e0-bcff-4d27-a395-5052ecd466a4")
 		)
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/dd4eb25e-e036-4865-9a65-d34df93aca5c"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 247.65 90.17 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "930f9d28-5562-4af4-8edb-229acc98bc14")
-		(property "Reference" "R31"
-			(at 252.73 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "120R"
-			(at 252.73 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
-			(at 247.65 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 247.65 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 247.65 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "84ef8b2e-ad57-430e-8c23-2b347510fd54")
-		)
-		(pin "2"
-			(uuid "94467e7a-7ab5-4868-8ab5-737fc76b7179")
-		)
-		(instances
-			(project "KillSwitch"
-				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/dd4eb25e-e036-4865-9a65-d34df93aca5c"
-					(reference "R31")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -3804,7 +3668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a084291b-69fc-4b0c-b197-4a3e422c9219")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR015"
 			(at 184.15 106.68 0)
 			(effects
 				(font
@@ -3853,7 +3717,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/dd4eb25e-e036-4865-9a65-d34df93aca5c"
-					(reference "#PWR09")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -3869,7 +3733,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a0fbc19d-f60a-4e17-ba89-0f0f57d4b497")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR014"
 			(at 148.59 106.68 0)
 			(effects
 				(font
@@ -3918,7 +3782,143 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/dd4eb25e-e036-4865-9a65-d34df93aca5c"
-					(reference "#PWR08")
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 213.36 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1def1d8-4edf-4fb1-81c2-2b9d64f1bfb3")
+		(property "Reference" "R16"
+			(at 218.44 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "120R"
+			(at 218.44 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 213.36 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ac403826-5307-43c5-b327-68500e6503d5")
+		)
+		(pin "2"
+			(uuid "84a817f1-56df-4330-be6a-9af390a0e702")
+		)
+		(instances
+			(project "KillSwitch"
+				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/dd4eb25e-e036-4865-9a65-d34df93aca5c"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 247.65 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5e43de5-f3b3-4d37-b186-d8d8c7790732")
+		(property "Reference" "R18"
+			(at 252.73 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "120R"
+			(at 252.73 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 247.65 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "47291326-ab46-4f60-ab5f-2e15ef6c4a81")
+		)
+		(pin "2"
+			(uuid "dff7e4fb-5a0b-4f6a-b200-fde1a61558d5")
+		)
+		(instances
+			(project "KillSwitch"
+				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/dd4eb25e-e036-4865-9a65-d34df93aca5c"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -3934,7 +3934,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a912dd69-3464-476e-ab41-0b15492c267f")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR013"
 			(at 68.58 119.38 0)
 			(effects
 				(font
@@ -3984,7 +3984,75 @@
 		(instances
 			(project ""
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/dd4eb25e-e036-4865-9a65-d34df93aca5c"
-					(reference "#PWR06")
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 177.8 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "abcac351-f5b9-45fe-8e33-89ad8049642e")
+		(property "Reference" "R10"
+			(at 182.88 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "120R"
+			(at 182.88 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 177.8 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "128683ad-f9a5-472b-a817-ebddb33d0496")
+		)
+		(pin "2"
+			(uuid "b56953e8-920d-4bc4-bba3-cfcbef644517")
+		)
+		(instances
+			(project "KillSwitch"
+				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/dd4eb25e-e036-4865-9a65-d34df93aca5c"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -4000,7 +4068,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad73d413-1468-4cf8-acdb-5e9bb455a86d")
-		(property "Reference" "D16"
+		(property "Reference" "D3"
 			(at 167.64 72.39 0)
 			(effects
 				(font
@@ -4053,7 +4121,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/dd4eb25e-e036-4865-9a65-d34df93aca5c"
-					(reference "D16")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4069,7 +4137,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b0955078-98b8-45fe-a1b8-5c54a40977c6")
-		(property "Reference" "D18"
+		(property "Reference" "D5"
 			(at 167.64 87.63 0)
 			(effects
 				(font
@@ -4122,7 +4190,75 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/dd4eb25e-e036-4865-9a65-d34df93aca5c"
-					(reference "D18")
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 247.65 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3bb6458-a850-4a97-9652-bd2d8d41a09c")
+		(property "Reference" "R20"
+			(at 252.73 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "120R"
+			(at 252.73 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 247.65 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f811a807-6ed0-4e12-ae5f-16715d9e6fb3")
+		)
+		(pin "2"
+			(uuid "4c4d6f9e-ed65-4025-b571-ef18a249ee76")
+		)
+		(instances
+			(project "KillSwitch"
+				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/dd4eb25e-e036-4865-9a65-d34df93aca5c"
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -4137,7 +4273,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c4a157dc-3ef6-4ac1-96dc-e51e58016648")
-		(property "Reference" "SW7"
+		(property "Reference" "SW6"
 			(at 133.35 72.39 0)
 			(effects
 				(font
@@ -4190,75 +4326,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/dd4eb25e-e036-4865-9a65-d34df93aca5c"
-					(reference "SW7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 247.65 74.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c684c37c-4a84-42e3-b6e1-58935b71ea54")
-		(property "Reference" "R29"
-			(at 252.73 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "120R"
-			(at 252.73 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
-			(at 247.65 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 247.65 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 247.65 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c511eeec-fe06-41ec-bc8e-d1110c8d7ca8")
-		)
-		(pin "2"
-			(uuid "3d7f9e55-bdf3-4e99-95af-ce769d05ece3")
-		)
-		(instances
-			(project "KillSwitch"
-				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/dd4eb25e-e036-4865-9a65-d34df93aca5c"
-					(reference "R29")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -4273,7 +4341,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d3f6ac22-1473-4988-a42e-c99f628055a5")
-		(property "Reference" "D23"
+		(property "Reference" "D10"
 			(at 237.49 66.04 0)
 			(effects
 				(font
@@ -4326,7 +4394,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/dd4eb25e-e036-4865-9a65-d34df93aca5c"
-					(reference "D23")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -4342,7 +4410,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc83ccc7-9a2b-4451-ae50-647a186e82f0")
-		(property "Reference" "D15"
+		(property "Reference" "D2"
 			(at 167.64 64.77 0)
 			(effects
 				(font
@@ -4395,7 +4463,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/dd4eb25e-e036-4865-9a65-d34df93aca5c"
-					(reference "D15")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -4410,7 +4478,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e851e864-b7dc-4f85-8874-04c26502e5e8")
-		(property "Reference" "SW8"
+		(property "Reference" "SW7"
 			(at 133.35 80.01 0)
 			(effects
 				(font
@@ -4463,7 +4531,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/dd4eb25e-e036-4865-9a65-d34df93aca5c"
-					(reference "SW8")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -4478,7 +4546,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e95c5f88-d67e-4cc2-b4d0-deac5e55c3ab")
-		(property "Reference" "D22"
+		(property "Reference" "D9"
 			(at 203.2 87.63 0)
 			(effects
 				(font
@@ -4531,7 +4599,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/dd4eb25e-e036-4865-9a65-d34df93aca5c"
-					(reference "D22")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -4546,7 +4614,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed088ee0-1d7c-4171-a4d3-48d6fb9c63dd")
-		(property "Reference" "D24"
+		(property "Reference" "D11"
 			(at 237.49 73.66 0)
 			(effects
 				(font
@@ -4599,7 +4667,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/dd4eb25e-e036-4865-9a65-d34df93aca5c"
-					(reference "D24")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -4615,7 +4683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee62cf6a-4fd8-4f6d-84b6-782646264533")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR017"
 			(at 254 107.95 0)
 			(effects
 				(font
@@ -4664,75 +4732,7 @@
 		(instances
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/dd4eb25e-e036-4865-9a65-d34df93aca5c"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 247.65 82.55 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fc5a6fe3-abf2-4380-86f4-b977bafb0dc9")
-		(property "Reference" "R30"
-			(at 252.73 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "120R"
-			(at 252.73 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
-			(at 247.65 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 247.65 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 247.65 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "29ab32a2-b287-4946-88fe-49ae2c89b194")
-		)
-		(pin "2"
-			(uuid "a3781285-1331-47db-9c7d-74eb525f83b1")
-		)
-		(instances
-			(project "KillSwitch"
-				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b/dd4eb25e-e036-4865-9a65-d34df93aca5c"
-					(reference "R30")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
