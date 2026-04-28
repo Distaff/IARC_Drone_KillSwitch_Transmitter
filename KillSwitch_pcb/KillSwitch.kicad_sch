@@ -1187,6 +1187,182 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED_Small_Filled"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LED_Small_Filled"
+				(at -4.445 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode, small symbol, filled shape"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode light-emitting-diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Small_Filled_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Small_Filled_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -3945,10 +4121,6 @@
 		(at 166.37 39.37)
 		(uuid "e0afe382-1109-43b9-9b72-9776e9b5cece")
 	)
-	(no_connect
-		(at 156.21 77.47)
-		(uuid "fd4d7cb8-8d0a-43a1-9415-c7dc9745ba14")
-	)
 	(wire
 		(pts
 			(xy 91.44 140.97) (xy 91.44 139.7)
@@ -4371,6 +4543,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 77.47) (xy 184.15 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7390cc32-c427-4926-8f4f-8dd64f198c51")
+	)
+	(wire
+		(pts
 			(xy 107.95 68.58) (xy 107.95 67.31)
 		)
 		(stroke
@@ -4428,6 +4610,16 @@
 			(type default)
 		)
 		(uuid "8630067d-f723-4f9a-a8a0-6ef15d3086ab")
+	)
+	(wire
+		(pts
+			(xy 156.21 77.47) (xy 166.37 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86ee8087-0167-4990-89b8-e695d6b7fa6f")
 	)
 	(wire
 		(pts
@@ -4621,6 +4813,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 77.47) (xy 184.15 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6587bfa-f0a5-4f79-b592-39c121812a33")
+	)
+	(wire
+		(pts
 			(xy 140.97 82.55) (xy 140.97 88.9)
 		)
 		(stroke
@@ -4798,6 +5000,16 @@
 			(type default)
 		)
 		(uuid "fc1b8b41-884a-4eed-a07b-acfddecee753")
+	)
+	(wire
+		(pts
+			(xy 171.45 77.47) (xy 172.72 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff4c7743-9190-4708-b072-3e8f8537c670")
 	)
 	(label "DIP_SEL3"
 		(at 125.73 64.77 180)
@@ -5078,6 +5290,16 @@
 			(justify right bottom)
 		)
 		(uuid "9f644e9a-9973-472a-8537-6afe1d7c5352")
+	)
+	(label "LED_ARM"
+		(at 160.02 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9fe99a4c-6ada-442d-ae84-25d3b83133b0")
 	)
 	(label "LORA_SPI_CLK"
 		(at 40.64 45.72 180)
@@ -6581,6 +6803,75 @@
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small_Filled")
+		(at 168.91 77.47 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5be282a0-e6b3-4351-85ae-4715a4da3b38")
+		(property "Reference" "D19"
+			(at 166.37 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Amber"
+			(at 166.37 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_Rectangular_W5.0mm_H2.0mm"
+			(at 168.91 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fc4dea71-7bc9-4f3a-aa09-4e5ad7efb1f2")
+		)
+		(pin "2"
+			(uuid "1115095b-d19d-4fae-8f3d-3a1218b758bd")
+		)
+		(instances
+			(project "KillSwitch"
+				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b"
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -8259,6 +8550,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 184.15 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4289226-9b1c-4638-9625-bf3a9df5321f")
+		(property "Reference" "#PWR027"
+			(at 184.15 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 184.15 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8dd44e7-45c9-446c-b4a1-c5ac4e8f0736")
+		)
+		(instances
+			(project "KillSwitch"
+				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 67.31 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8683,6 +9039,74 @@
 			(project "KillSwitch"
 				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 175.26 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff1f14d0-4b52-4749-9908-47745f31ed75")
+		(property "Reference" "R27"
+			(at 177.8 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "120R"
+			(at 179.07 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 175.26 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "53de0cc2-6d05-4d02-912f-01a18c495002")
+		)
+		(pin "2"
+			(uuid "ef0d42f8-6a2e-4f42-8e89-7b7ecacd92ed")
+		)
+		(instances
+			(project "KillSwitch"
+				(path "/722d8df3-08e9-470c-940d-01bb552f6a6b"
+					(reference "R27")
 					(unit 1)
 				)
 			)
