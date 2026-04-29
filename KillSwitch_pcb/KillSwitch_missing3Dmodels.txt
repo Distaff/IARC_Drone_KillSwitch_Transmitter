@@ -1,0 +1,19 @@
+### Missing 3D models - created on 2026-04-26 22:07
+### Printed by checking_3D_models plugin
+Board file: D:/Documents/Elektronika Schematy/KiCad/IARC-KillSwitch_Board/KillSwitch_pcb/KillSwitch.kicad_pcb
+3D missing models written to:
+D:\Documents\Elektronika Schematy\KiCad\IARC-KillSwitch_Board\KillSwitch_pcb\KillSwitch_missing3Dmodels.txt
+-------
+('U1', 'C:\\Program Files\\KiCad\\9.0\\share\\kicad\\3dmodels\\RF_Module.3dshapes\\ESP32-S3-WROOM-1U.step')
+('SW7', '${KICAD_USER_3DMOD}/Toggle_SW_Blue_R0.step')
+('SW8', '${KICAD_USER_3DMOD}/Toggle_SW_Blue_R0.step')
+('SW5', '${KICAD_USER_3DMOD}/Toggle_SW_Blue_R0.step')
+('SW6', '${KICAD_USER_3DMOD}/Toggle_SW_Blue_R0.step')
+('J1', 'C:\\Program Files\\KiCad\\9.0\\share\\kicad\\3dmodels\\Connector_Molex.3dshapes\\Molex_PicoBlade_53047-0310_1x03_P1.25mm_Vertical.step')
+('IC1', 'D:\\Documents\\Elektronika Schematy\\KiCad\\IARC-KillSwitch_Board\\KillSwitch_pcb\\114993390.stp')
+('SW4', '${KICAD_USER_3DMOD}/Toggle_SW_Blue_R0.step')
+('SW9', 'D:\\Documents\\Elektronika Schematy\\KiCad\\IARC-KillSwitch_Board\\KillSwitch_pcb\\SL19-121.stp')
+('F1', 'C:\\Program Files\\KiCad\\9.0\\share\\kicad\\3dmodels\\Fuse.3dshapes\\Fuse_2920_7451Metric.step')
+-------
+NUM of 3D missing models:10
+checked extensions ['.stp', '.step', '.stpZ']

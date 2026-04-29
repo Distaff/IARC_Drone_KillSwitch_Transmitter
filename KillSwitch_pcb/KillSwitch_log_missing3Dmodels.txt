@@ -1,0 +1,11 @@
+Can not find model defined with enviroment variable:
+${KICAD_USER_3DMOD}/Toggle_SW_Blue_R0.step
+Can not find model defined with enviroment variable:
+${KICAD_USER_3DMOD}/Toggle_SW_Blue_R0.step
+Can not find model defined with enviroment variable:
+${KICAD_USER_3DMOD}/Toggle_SW_Blue_R0.step
+Can not find model defined with enviroment variable:
+${KICAD_USER_3DMOD}/Toggle_SW_Blue_R0.step
+Can not find model defined with enviroment variable:
+${KICAD_USER_3DMOD}/Toggle_SW_Blue_R0.step
+[('U1', 'C:\\Program Files\\KiCad\\9.0\\share\\kicad\\3dmodels\\RF_Module.3dshapes\\ESP32-S3-WROOM-1U.step'), ('SW7', '${KICAD_USER_3DMOD}/Toggle_SW_Blue_R0.step'), ('SW8', '${KICAD_USER_3DMOD}/Toggle_SW_Blue_R0.step'), ('SW5', '${KICAD_USER_3DMOD}/Toggle_SW_Blue_R0.step'), ('SW6', '${KICAD_USER_3DMOD}/Toggle_SW_Blue_R0.step'), ('J1', 'C:\\Program Files\\KiCad\\9.0\\share\\kicad\\3dmodels\\Connector_Molex.3dshapes\\Molex_PicoBlade_53047-0310_1x03_P1.25mm_Vertical.step'), ('IC1', 'D:\\Documents\\Elektronika Schematy\\KiCad\\IARC-KillSwitch_Board\\KillSwitch_pcb\\114993390.stp'), ('SW4', '${KICAD_USER_3DMOD}/Toggle_SW_Blue_R0.step'), ('SW9', 'D:\\Documents\\Elektronika Schematy\\KiCad\\IARC-KillSwitch_Board\\KillSwitch_pcb\\SL19-121.stp'), ('F1', 'C:\\Program Files\\KiCad\\9.0\\share\\kicad\\3dmodels\\Fuse.3dshapes\\Fuse_2920_7451Metric.step')]
